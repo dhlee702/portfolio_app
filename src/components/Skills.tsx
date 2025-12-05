@@ -15,27 +15,27 @@ interface SkillCategory {
 
 const skillCategories: SkillCategory[] = [
     {
-        title: "Web Planning & UX",
+        title: "웹 기획 & UX",
         type: "bars",
         skills: [
-            { name: "Information Architecture", level: 90 },
-            { name: "Wireframing & Prototyping", level: 85 },
-            { name: "User Research", level: 80 },
-            { name: "Requirement Analysis", level: 95 },
+            { name: "정보 구조 설계 (IA)", level: 90 },
+            { name: "와이어프레임 & 프로토타이핑", level: 85 },
+            { name: "사용자 리서치", level: 80 },
+            { name: "요구사항 분석", level: 95 },
         ],
     },
     {
-        title: "Tools",
+        title: "협업 & 디자인 도구",
         type: "tags",
         skills: ["Figma", "Jira", "Confluence", "Notion", "Slack", "Zeplin", "Adobe XD", "Miro"],
     },
     {
-        title: "Communication & PM",
+        title: "커뮤니케이션 & PM",
         type: "bars",
         skills: [
-            { name: "Agile/Scrum", level: 85 },
-            { name: "Stakeholder Management", level: 90 },
-            { name: "Technical Communication", level: 80 },
+            { name: "애자일/스크럼", level: 85 },
+            { name: "이해관계자 관리", level: 90 },
+            { name: "기술적 커뮤니케이션", level: 80 },
         ],
     },
 ];
@@ -44,9 +44,9 @@ export default function Skills() {
     return (
         <Section id="skills">
             <div className="text-center mb-16">
-                <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">Skills & Expertise</h2>
+                <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">보유 기술 & 전문성</h2>
                 <p className="text-muted-foreground max-w-2xl mx-auto">
-                    A comprehensive toolkit for delivering successful digital projects.
+                    디지털 프로젝트를 성공으로 이끄는 종합적인 역량입니다.
                 </p>
             </div>
 

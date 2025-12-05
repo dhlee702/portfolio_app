@@ -8,7 +8,7 @@ export default function Footer() {
                     © {new Date().getFullYear()} Portfolio. All rights reserved.
                 </p>
                 <p className="text-muted-foreground/40 text-xs mt-2">
-                    Designed & Built with Next.js & Tailwind CSS
+                    Next.js & Tailwind CSS로 디자인 및 개발되었습니다.
                 </p>
             </div>
         </footer>

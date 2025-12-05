@@ -8,11 +8,11 @@ import Link from "next/link";
 import { ThemeToggle } from "@/components/ThemeToggle";
 
 const navItems = [
-    { name: "Home", href: "#home" },
-    { name: "About", href: "#about" },
-    { name: "Skills", href: "#skills" },
-    { name: "Projects", href: "#projects" },
-    { name: "Contact", href: "#contact" },
+    { name: "홈", href: "#home" },
+    { name: "소개", href: "#about" },
+    { name: "기술", href: "#skills" },
+    { name: "프로젝트", href: "#projects" },
+    { name: "문의", href: "#contact" },
 ];
 
 export default function Header() {

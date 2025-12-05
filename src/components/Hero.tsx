@@ -21,15 +21,15 @@ export default function Hero() {
                     transition={{ duration: 0.8 }}
                 >
                     <h2 className="text-primary font-medium tracking-widest mb-4 uppercase text-sm md:text-base">
-                        Hello, I am a
+                        안녕하세요, 저는
                     </h2>
                     <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold text-foreground mb-6 leading-tight">
-                        Web Planner <br className="md:hidden" />
-                        <span className="text-primary">&</span> UX Strategist
+                        웹 기획자 <br className="md:hidden" />
+                        <span className="text-primary">&</span> UX 전략가
                     </h1>
                     <p className="text-muted-foreground text-lg md:text-xl max-w-2xl mx-auto mb-10 leading-relaxed">
-                        Crafting intuitive digital experiences and managing projects from conception to launch.
-                        Specialized in IA design, prototyping, and agile project management.
+                        직관적인 디지털 경험을 설계하고 기획부터 출시까지의 프로젝트를 관리합니다.
+                        IA 설계, 프로토타이핑, 애자일 프로젝트 관리에 전문성이 있습니다.
                     </p>
 
                     <div className="flex flex-col md:flex-row items-center justify-center gap-4">
@@ -37,11 +37,11 @@ export default function Hero() {
                             href="#projects"
                             className="px-8 py-3 bg-primary hover:bg-primary/90 text-primary-foreground font-bold rounded-full transition-all flex items-center gap-2 group"
                         >
-                            View Portfolio
+                            포트폴리오 보기
                             <ArrowRight size={18} className="group-hover:translate-x-1 transition-transform" />
                         </Link>
                         <button className="px-8 py-3 border border-primary/50 hover:border-primary text-muted-foreground hover:text-foreground rounded-full transition-all flex items-center gap-2">
-                            Download CV
+                            이력서 다운로드
                             <Download size={18} />
                         </button>
                     </div>

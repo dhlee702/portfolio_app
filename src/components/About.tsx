@@ -6,18 +6,18 @@ import { User, Briefcase, Award, Calendar } from "lucide-react";
 const highlights = [
     {
         icon: <Briefcase className="w-6 h-6 text-primary" />,
-        title: "Experience",
-        desc: "5+ Years in Web Planning & PM",
+        title: "경력",
+        desc: "웹 기획 및 PM 5년 이상",
     },
     {
         icon: <Award className="w-6 h-6 text-primary" />,
-        title: "Key Role",
-        desc: "IA Design, UX Strategy, Agile PM",
+        title: "주요 역할",
+        desc: "IA 설계, UX 전략, 애자일 PM",
     },
     {
         icon: <Calendar className="w-6 h-6 text-primary" />,
-        title: "Availability",
-        desc: "Open for new opportunities",
+        title: "작업 가능 여부",
+        desc: "새로운 프로젝트 참여 가능",
     },
 ];
 
@@ -38,12 +38,12 @@ export default function About() {
 
                 <div>
                     <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-6">
-                        About Me
+                        소개
                     </h2>
                     <p className="text-muted-foreground mb-6 leading-relaxed">
-                        I am a dedicated Web Planner and UX Strategist with a passion for creating user-centric digital products.
-                        With over 5 years of experience, I bridge the gap between stakeholders, designers, and developers to deliver high-quality web solutions.
-                        My expertise lies in translating complex requirements into intuitive information architectures and managing the entire product lifecycle.
+                        저는 사용자를 최우선으로 생각하는 디지털 제품을 만드는 웹 기획자이자 UX 전략가입니다.
+                        5년 이상의 경험을 바탕으로 이해관계자, 디자이너, 개발자 간의 가교 역할을 수행하며 고품질의 웹 솔루션을 제공합니다.
+                        복잡한 요구사항을 직관적인 정보 구조(IA)로 변환하고 전체 제품 생명주기를 관리하는 데 전문성이 있습니다.
                     </p>
 
                     <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 mb-8">
@@ -57,7 +57,7 @@ export default function About() {
                     </div>
 
                     <button className="text-primary hover:text-primary/80 font-medium underline underline-offset-4 transition-colors">
-                        Download Resume
+                        이력서 다운로드
                     </button>
                 </div>
             </div>
